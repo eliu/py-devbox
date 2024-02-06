@@ -1,7 +1,10 @@
+__author__ = 'Liu Hongyu <eliuhy@163.com>'
+__license__ = "Apache-2.0"
+__all__ = ["gather_facts", "resolve_dns"]
+
+
 import nmcli
 from command import run
-
-__all__ = ["gather_facts", "resolve_dns"]
 
 
 class NetworkFacts:
